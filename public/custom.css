@@ -1,0 +1,472 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    padding-top:70px;
+}
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .btn {
+        border-radius: 7px;
+    }
+
+    .row-no-padding>[class*="col-"] {
+        padding-right: 0 !important;
+    }
+
+    a,
+    a:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+
+
+    .carousel-item {
+        max-height: 500px;
+    }
+
+    .text-justify {
+        max-width: 75%;
+    }
+
+    @media only screen and (min-width: 576px) {
+        .produk-invest {
+            height: 8vw !important;
+        }
+
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon
+
+        /*, .carousel-indicators */
+            {
+            border-radius: 50%;
+            height: 3.5rem;
+            width: 3.5rem;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-size: 50% 50%;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon
+
+        /*, .carousel-indicators */
+            {
+            border-radius: 50%;
+            height: 2.5rem;
+            width: 2.5rem;
+            background-color: rgba(255, 255, 255, 0.5);
+            background-size: 50% 50%;
+        }
+
+        .text-justify {
+            font-size: 0.6rem;
+            /* max-width: 60%; */
+        }
+
+        .btn-outline-light {
+            font-size: 10px;
+        }
+
+        .heading {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+        .cover-img-keranjang{
+            object-fit: cover;
+            height:auto;
+            width:100%;
+        }
+    }
+
+    @media only screen and (max-width: 405px) {
+        .heading {
+            font-size: 0.9rem;
+            margin-bottom: 0;
+        }
+        .text-justify {
+            font-size: 0.4rem;
+            margin-bottom: 0;
+            max-width: 80%;
+        }
+
+        .btn-outline-light {
+            padding: 5px 8px;
+            font-size: 8px;
+        }
+
+        #button-resize-landing {
+            padding: 5px 5px;
+            font-size: 12px;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+    }
+
+    .pasarnak {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+        width: 100%;
+    }
+
+    .carousel-caption {
+        text-align: left;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+    }
+
+    #carouselExampleControls {
+        position: relative;
+        width: 100%;
+    }
+    #card-hover-special{
+        transition: transform 0.8s;
+    }
+    #card-hover-special:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.15), 0 4px 8px rgba(0,0,0,.09);
+}
+
+    @media only screen and (min-width: 993px) {
+        /* #carouselExampleControls {
+            position: absolute;
+            width: 100%;
+        }
+
+        #land1 {
+            margin-top: 420px;
+        } */
+        /* .sticky-custom{
+            position: fixed;
+            
+        } */
+    }
+
+        #card-nav-menu{
+            max-height:550px;
+        }
+        .sticky-top{
+            top:4.5em !important;
+        }
+
+    .overlay-div {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #69004A;
+        opacity: .6;
+        border-radius: 0.25rem !important;
+    }
+ 
+    .bg-image {
+        /* Add the blur effect */
+        filter: blur(1px);
+        -webkit-filter: blur(1px);
+    }
+    /* Position text in the middle of the page/image */
+    .bg-text {
+     
+        background-color: rgba(126, 0, 81, 0.5)
+    }
+    .custom-rounded{
+        border-radius: 8px !important;
+    }
+
+    #produk-invest{
+        width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    }
+    @media only screen and (min-width: 769px) {
+        .card-title ,.landing{
+            font-size: 0.9em !important;
+        }
+
+        #landing-projek-paragraph > p {
+            font-size: 0.73em;
+        }
+
+        .text-pendanaan{
+            font-size: 0.73em !important;
+        }
+        /* .btn-sm{
+        font-size:0.85em;
+        } */
+       
+        .card-img-top {
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+        }
+        .cover-img-keranjang{
+            object-fit: cover;
+            height:12vw !important;
+            width:100%;
+        }
+       
+    }
+.margin-top-xs { margin-top: .21em; }
+    @media only screen and (min-width: 768px) and (max-width: 1025px) {
+        .button-margin-portofolio{
+            margin-top: 30px;
+        }
+        #transaksi-jumlahlot-width{
+            width:6.1rem;
+        }
+        #transaksi-metodebayar-width{
+            width:8.1rem;
+        }
+       
+        #transaksi-status-width{
+            width:7.7rem;
+        }
+        #transaksi-proyek-width{
+            width:10.8rem;
+        }
+    }
+ 
+    .text-size-Portofolio-Transaksi-title{
+        font-size: 0.9em !important;
+    }
+
+    @media only screen and (min-width: 540px) and (max-width: 768px) {
+        .card-img-top {
+            width: 100%;
+            height: 50vw;
+            object-fit: cover;
+        }
+         .cart-text-ringkasan{
+            word-wrap: break-word;
+            width: 6rem;
+        }
+        .cover-img-keranjang{
+            object-fit: cover;
+            height:auto;
+            width:100%;
+        }
+    }
+    /* NGECILIN FONT MENU PORTOFOLIO */
+    @media only screen and (max-width: 371px) {
+        .text-menu-portofolio{
+            font-size: 0.79em;
+        }
+    }
+    
+    @media only screen and (min-width: 1281px){
+        .nowrap-my-text-investnak {
+            white-space: nowrap;
+        }
+    }
+    /* PAYMENT GATEWAY */
+    /* NGECILIN FONT MENU PORTOFOLIO */
+    @media only screen and (max-width: 474px) {
+        .modal-line-header {
+            /* visibility: hidden; */
+            /* max-width: 0.5px; */
+        }
+    }
+  
+      /* SET GAMBAR UPLOAD DOKUMEN PROFILE USER */
+    .cover {
+        object-fit: cover;
+        width: 200px;
+        height: 130px;
+      }
+    .hidden-arrow.dropdown-toggle:after {
+        display: none;
+    }
+    .dropstart .dropdown-toggle::before {
+        content: none;
+    }
+    .badge-notification {
+        position: absolute;
+        font-size: .6rem;
+        margin-top: -.1rem;
+        margin-left: -.5rem;
+        padding: .2em .45em;
+    }
+    .navbar-divider {
+        width: 0;
+        border-right: 1px solid #e3e6f0;
+        height: calc(4.375rem - 2rem);
+        margin: auto 1rem;
+    }
+    .bs-stepper-circle {
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 2em;
+        height: 2em;
+        padding: .5em 0;
+        margin: .25rem;
+        line-height: 1em;
+        color: #fff;
+        background-color: #6c757d;
+        border-radius: 1em;
+    }
+   .modal-line-header{
+    -ms-flex: 1 0 32px;
+    flex: 1 0 5px;
+    min-width: 1px;
+    min-height: 1px;
+    margin: auto;
+    background-color: rgba(0,0,0,.12);
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: #7e0051 !important;
+        background-color: #fae7ff !important;
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+        
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237e0051'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+    }
+    .accordion-button.collapsed::after {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237e0051'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+      }
+
+    .active .bs-stepper-circle {
+        background-color: #7e0051 !important;
+    }
+    .fa-angle-down{
+        transition: transform 0.5s;
+    }
+    .fa-angle-down[aria-expanded="true"]{
+        transform: rotate(-180deg);
+    }
+    .fa-angle-right{
+        transition: transform 0.5s;
+    }
+    .fa-angle-right[aria-expanded="true"]{
+        transform: rotate(90deg);
+    }
+
+    a.active{
+        border-bottom: 3px solid #7e0051;
+        color: #7e0051 !important;
+    }
+    button.active{
+        border-bottom: 3px solid #7e0051;
+        color: #7e0051 !important;
+    }
+    .nav-pills .nav-link.active{
+        background-color: rgba(126, 0, 81, 0.8);
+        color:white !important;
+    
+    }
+    /* FONT TEXT COLOR */
+    .btn-outline-warning{
+        color: #FF8200 !important;
+        border-color: #FF8200 !important;
+    }
+    .btn-outline-warning:hover {
+        color:white !important;
+
+    }
+    .bg-default-primary{
+        background-color: #7e0051 !important;
+    }
+    .bg-default-secondary{
+        background-color: #FF8200 !important;
+    }
+    .text-roi{
+        color:#FF8200 !important;
+    }
+    .text-harga{
+        color: #7e0051 !important;
+    }
+    #btn-pasarnak1{
+        background-color:#7e0051 !important;
+        color:white;
+        border-color:#7e0051 !important;
+    }
+    #btn-pasarnak2{
+        border-color:#FF8200 !important; 
+        color:#FF8200 !important;
+    }
+    .btn-outline-default{
+        color:#7e0051 !important;
+        border-color:#7e0051 !important;
+    }
+    .btn-outline-default:hover{
+    color:white!important;
+    background-color:#7e0051 !important ;
+    }
+
+    .btn-default{
+        color:white !important;
+        background-color:#7e0051  !important;
+    }
+    .btn-default:hover{
+    color:white!important;
+    background-color:#570339 !important ;
+    }
+
+    .border-left-primary{
+        border-left: 5px solid #FF8200;
+    }
+    .border-left-default{
+        border-left: 5px solid #7e0051;
+    }
+    .border-left-danger{
+        border-left: 5px solid #FF0101;
+    }
+    .border-left-success{
+        border-left: 5px solid #4CAF50;
+    }
+
+    /* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+        width: 95% !important;
+    } */
+
+#dropdown-notification{
+    width:calc(100% - 1.5rem);
+    left: .75rem;
+    border-radius: .35rem !important;
+}
+#dropdown-notification-lg{
+    min-width:400px;
+}
+.right-position-landing-dropdown{
+    width:calc(100% - 1.5rem) !important;
+    left: .50rem !important;
+    }
+
+    .dropdown-header {
+        background-color: #7e0051;
+        border: 1px solid #7e0051;
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+        color: #fff;
+        border-top-left-radius: .35rem ;
+        border-top-right-radius: .35rem ;
+    }
+    #dropdown-item {
+        /* white-space: normal; */
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border-left: 1px solid #e3e6f0;
+        border-right: 1px solid #e3e6f0;
+        border-bottom: 1px solid #e3e6f0;
+        line-height: 1.3rem;
+    }
+    .icon-circle {
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
