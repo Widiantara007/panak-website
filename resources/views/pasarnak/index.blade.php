@@ -105,7 +105,7 @@ use Carbon\Carbon;
             <div class="row d-flex justify-content-start">
             @foreach ($products as $product)
                
-            <div class="col-lg-3 col-md-4 col-6 mb-4">
+            <div class="col-lg-3 col-md-6 mb-4">
                 <div class="card rounded border-0 h-100" id="card-hover-special">
                     <div class="card border-0">
                         <div class="{{ $product->isOutOfStock() ? 'bg-image' : '' }}">
