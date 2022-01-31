@@ -174,7 +174,7 @@
     <section>
         <div class="row mb-4">
             @foreach ($products as $product)
-            <div class="col-lg-2 col-md-4 col-6 my-4">
+            <div class="col-lg-2 col-md-4 my-4">
                 <div class="card rounded border-0 h-100" id="card-hover-special">
                     <div class="card border-0">
                         <div class="{{ $product->isOutOfStock() ? 'bg-image' : '' }}">
