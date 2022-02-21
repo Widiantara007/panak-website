@@ -11,6 +11,10 @@
     <link href="{{asset ('/assets/img/logo.svg')}}" rel="icon" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <link rel="stylesheet" href="{{asset('custom.css')}}">
+    <link href="{{asset('css/styles.css')}}" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!--========== Favicon ==========-->
+    <link rel="icon" href="assets/img/tab.png">
     <title>Panak.id - @yield('title')</title>
     @stack('css')
 
@@ -39,6 +43,8 @@
             </div>
             @endif
     @stack('js')
+    <script src="{{asset('js/all.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 </body>
 
 </html>

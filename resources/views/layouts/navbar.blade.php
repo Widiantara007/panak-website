@@ -90,7 +90,7 @@
         </div>
     </div>
     <!-- NAVBAR NORMAL SCREEN-->
-    <div class="container d-none d-lg-inline-flex "><img src="{{asset('assets/img/logo.svg')}}" style="width:50px;" />
+        <div class="container d-none d-lg-inline-flex "><img src="{{asset('assets/img/logo.svg')}}" style="width:50px;" />
         <a class="navbar-brand text-harga" href="{{ route('landing')}}">PANAK.ID</a>
         <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -112,9 +112,9 @@
             <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="{{route('migo-product')}}">MIGO Product</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link " aria-current="page" href="{{route('jadi-pec')}}">Jadi PEC</a>
-            </li>
+            </li>-->
             <li class="nav-item me-2">
                 <a class="nav-link " aria-current="page" href="{{route('about-us')}}">About us</a>
             </li>
